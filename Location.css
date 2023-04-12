@@ -1,0 +1,107 @@
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* body{
+    height: 100%;
+} */
+
+
+
+main div iframe{
+    display: none;
+}
+div{
+    margin: 20px;
+}
+
+div > p{
+    padding: 5px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 619px) {
+    main div iframe{
+        display: unset;
+        flex-grow: 1;
+        height: 300px;
+        /* width: 320px;
+        height: 300px; */
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        justify-content: space-around;
+    }
+
+    #loc{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+    }
+
+    #loc2 {
+        display: flex;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    
+    main div iframe{
+        display: unset;
+        flex-grow: 1;
+    }
+
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    /* #loc0{
+        display: flex;
+        justify-content: center;
+    } */
+
+    #loc1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+    }
+
+    #loc2 {
+        display: flex;
+        flex-grow: 1;
+    }
+
+}
