@@ -22,15 +22,10 @@ color: white;
     color: white;
 }
 
-/* main {
-    display: flex;
-    flex-direction: column;
-} */
-
-/* body{
-    height: 100%;
-} */
-
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
 
 
 main div iframe{
@@ -86,11 +81,6 @@ div > p{
         flex-wrap: nowrap;
         justify-content: space-around;
     }
-
-    /* #loc0{
-        display: flex;
-        justify-content: center;
-    } */
 
     #loc1{
         display: flex;
